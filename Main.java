@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-    System.out.println("\n\n You are on an island surrounded by water.\n There is a path to the woods to the north, the sea to the south, and a beach shack to the east. \n Which way do you want to go (n,e,s,w)?");
+    System.out.println("\n\n You are on an island surrounded by water.\n There is a path to the woods to the north, the sea to the south, mountains to the west, and a beach shack to the east. \n Which way do you want to go (n,e,s,w)?");
     String command = scan.nextLine();
     if (command.equals("n")) 
     {
